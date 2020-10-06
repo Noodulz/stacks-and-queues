@@ -3,6 +3,8 @@
 #include <stdexcept>
 using namespace std;
 
+// Similar to stack, uses templates to support various types
+// Follows FIFO principle. First in, first out. 
 template <typename T>
 class ABQ {
    private:
